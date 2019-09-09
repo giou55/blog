@@ -8,13 +8,13 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    @if (session('status'))
+                    {{-- @if (session('status'))
                         <div class="alert alert-success">
                             {{ session('status') }}
                         </div>
-                    @endif
-
-                    You are logged in!
+                    @endif --}}
+                    <a href="/posts/create" class="btn btn-primary">Create Post </a>
+                    <h3>Your Blog Posts</h3>
                 </div>
             </div>
         </div>
