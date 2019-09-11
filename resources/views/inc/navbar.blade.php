@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse" style="background: #454140; border:none; border-radius:0; border-bottom:6px solid #ce3f3f">
     <div class="container">
         <div class="navbar-header">
 
@@ -10,10 +10,6 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <!-- Branding Image -->
-            <a class="navbar-brand" href="{{ url('/') }}">
-                {{ config('app.name', 'Laravel') }}
-            </a>
         </div>
 
         <div class="collapse navbar-collapse" id="app-navbar-collapse">
@@ -23,10 +19,17 @@
             </ul>
 
             <ul class="nav navbar-nav">
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/services">Services</a></li>
-                <li><a href="/posts">Blog</a></li>
+                <li><a href="/">ΑΡΧΙΚΗ</a></li>
+                <li><a href="/about">ΠΡΟΣΩΠΑ</a></li>
+                <li><a href="/services">ΠΟΛΗ</a></li>
+                <li><a href="/posts">ΙΣΤΟΡΙΕΣ</a></li>
+                <li><a href="/posts">ΓΕΥΣΗ</a></li>
+                <li><a href="/posts">ΤΕΧΝΟΛΟΓΙΑ</a></li>
+                <li><a href="/posts">ΝΕΑ</a></li>
+                <li><a href="/posts">ΤΕΧΝΕΣ</a></li>
+                <li><a href="/posts">LIFE</a></li>
+                <li><a href="/posts">ΑΦΙΕΡΩΜΑΤΑ</a></li>
+                <li><a href="/posts">BLOG</a></li>
             </ul>
 
             <!-- Right Side Of Navbar -->

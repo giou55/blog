@@ -15,11 +15,13 @@
 </head>
 <body>
     <div id="app">
+        @include('inc.logo')
         @include('inc.navbar')
         <div class="container">
             @include('inc.messages')
             @yield('content')
         </div>
+        @include('inc.footer')
     </div>
 
     <!-- Scripts -->
