@@ -1,20 +1,24 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Create Post</h1>
+    <h1>Δημιουργία άρθρου</h1>
     {!! Form::open(['action' => 'PostsController@store', 'method' => 'POST', 'enctype' => 'multipart/form-data']) !!}
         <div class="form-group">
-            {{Form::label('title', 'Title')}}
-            {{Form::text('title', '', ['class' => 'form-control', 'placeholder' => 'Title'])}}
+            {{Form::label('title', 'Τίτλος')}}
+            {{Form::text('title', '', ['class' => 'form-control', 'placeholder' => ''])}}
         </div>
         <div class="form-group">
-            {{Form::label('body', 'Body')}}
+            {{Form::label('category', 'Κατηγορία')}}
+            {{Form::select('size', ['L' => 'Πρόσωπα', 'S' => 'Πόλη', 'W' => 'Ιστορίες', 'T' => 'Νέα', 'R' => 'Τέχνες'], 'S', ['class' => 'form-control'])}}
+        </div>
+        <div class="form-group">
+            {{Form::label('body', 'Κείμενο')}}
             {{Form::textarea('body', '', ['id' => 'article-ckeditor', 'class' => 'form-control', 'placeholder' => 'Body Text'])}}
         </div>
         <div class="form-group">
             {{Form::file('cover_image')}}
         </div>
-            {{Form::submit('Submit', ['class' => 'btn btn-primary'])}}
+            {{Form::submit('Υποβολή', ['class' => 'btn btn-primary'])}}
     {!! Form::close() !!}
 
 @endsection
