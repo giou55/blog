@@ -9,7 +9,7 @@
         </div>
         <div class="form-group">
             {{Form::label('category', 'Κατηγορία')}}
-            {{Form::select('size', ['L' => 'Πρόσωπα', 'S' => 'Πόλη', 'W' => 'Ιστορίες', 'T' => 'Νέα', 'R' => 'Τέχνες'], 'S', ['class' => 'form-control'])}}
+            {{Form::select('category', ['persons' => 'Πρόσωπα', 'city' => 'Πόλη', 'stories' => 'Ιστορίες', 'news' => 'Νέα', 'art' => 'Τέχνες'], 'persons', ['class' => 'form-control'])}}
         </div>
         <div class="form-group">
             {{Form::label('body', 'Κείμενο')}}

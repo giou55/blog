@@ -13,7 +13,9 @@ class AddCategoryToPosts extends Migration
      */
     public function up()
     {
-        //
+        Schema::table('posts', function($table){
+            $table->string('category');
+        });
     }
 
     /**
@@ -23,6 +25,8 @@ class AddCategoryToPosts extends Migration
      */
     public function down()
     {
-        //
+        Schema::table('posts', function($table){
+            $table->dropColumn('category');
+        });
     }
 }

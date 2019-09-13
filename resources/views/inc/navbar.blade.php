@@ -20,8 +20,8 @@
 
             <ul class="nav navbar-nav">
                 <li><a href="/">ΑΡΧΙΚΗ</a></li>
-                <li><a href="/about">ΠΡΟΣΩΠΑ</a></li>
-                <li><a href="/services">ΠΟΛΗ</a></li>
+                <li><a href="/posts/persons">ΠΡΟΣΩΠΑ</a></li>
+                <li><a href="/posts">ΠΟΛΗ</a></li>
                 <li><a href="/posts">ΙΣΤΟΡΙΕΣ</a></li>
                 <li><a href="/posts">ΓΕΥΣΗ</a></li>
                 <li><a href="/posts">ΤΕΧΝΟΛΟΓΙΑ</a></li>
@@ -29,7 +29,6 @@
                 <li><a href="/posts">ΤΕΧΝΕΣ</a></li>
                 <li><a href="/posts">LIFE</a></li>
                 <li><a href="/posts">ΑΦΙΕΡΩΜΑΤΑ</a></li>
-                <li><a href="/posts">BLOG</a></li>
             </ul>
 
             <!-- Right Side Of Navbar -->
