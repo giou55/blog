@@ -97,6 +97,14 @@ class PostsController extends Controller
         return view('posts.index')->with('posts', $posts);
     }
 
+    public function showCatId($category, $id)
+    {
+        $posts = Post::where('category', $category)
+        ->where('id', $id)
+        ->orderBy('created_at', 'desc')->paginate(3);
+        return view('posts.index')->with('posts', $posts);
+    }
+
     /**
      * Show the form for editing the specified resource.
      *

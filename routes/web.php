@@ -16,6 +16,8 @@ Route::get('/about', 'PagesController@about');
 Route::get('/services', 'PagesController@services');
 
 Route::get('/posts/{category}', 'PostsController@showCat');
+Route::get('/posts/{category}/{id}', 'PostsController@showCatId');
+
 
 Route::resource('posts', 'PostsController');
 
