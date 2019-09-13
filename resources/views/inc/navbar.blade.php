@@ -21,7 +21,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="/">ΑΡΧΙΚΗ</a></li>
                 <li><a href="/posts/persons">ΠΡΟΣΩΠΑ</a></li>
-                <li><a href="/posts">ΠΟΛΗ</a></li>
+                <li><a href="/posts/city">ΠΟΛΗ</a></li>
                 <li><a href="/posts">ΙΣΤΟΡΙΕΣ</a></li>
                 <li><a href="/posts">ΓΕΥΣΗ</a></li>
                 <li><a href="/posts">ΤΕΧΝΟΛΟΓΙΑ</a></li>

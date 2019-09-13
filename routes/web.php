@@ -15,6 +15,8 @@ Route::get('/', 'PagesController@index');
 Route::get('/about', 'PagesController@about');
 Route::get('/services', 'PagesController@services');
 
+Route::get('/posts/{category}', 'PostsController@showCat');
+
 Route::resource('posts', 'PostsController');
 
 Auth::routes();

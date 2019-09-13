@@ -23,6 +23,7 @@ class PostsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
     public function index()
     {
         $posts = Post::orderBy('created_at', 'desc')->paginate(3);
@@ -87,6 +88,13 @@ class PostsController extends Controller
     {
         $post = Post::find($id);
         return view('posts.show')->with('post', $post);
+    }
+
+    public function showCat($category)
+    {
+        $posts = Post::where('category', $category)
+        ->orderBy('created_at', 'desc')->paginate(3);
+        return view('posts.index')->with('posts', $posts);
     }
 
     /**
