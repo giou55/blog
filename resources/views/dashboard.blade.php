@@ -19,17 +19,35 @@
                                 <th></th>
                             </tr>
                             @foreach($posts as $post)
-                            <tr>
-                                <td>{{$post->title}}</td>
-                                <td>{{$post->category}}</td>
-                                <td><a href="/posts/{{$post->id}}/edit" class="btn btn-default">Επεξεργασία</a></td>
-                                <td>
-                                    {!! Form::open(['action' => ['PostsController@destroy', $post->id], 'method' => 'POST', 'class' => 'pull-right']) !!}
-                                        {{Form::hidden('_method', 'DELETE')}}
-                                        {{Form::submit('Διαγραφή', ['class' => 'btn btn-danger'])}}
-                                    {!!Form::close()!!}
-                                </td>
-                            </tr>
+                                <?php
+                                switch ($post->category) {
+                                    case "persons":
+                                        $post->category = "Πρόσωπα";
+                                        break;
+                                    case "city":
+                                        $post->category = "Πόλη";
+                                        break;
+                                    case "stories":
+                                        $post->category = "Ιστορίες";
+                                        break;
+                                    case "taste":
+                                        $post->category = "Γεύση";
+                                        break;
+                                    default:
+                                        $post->category = "Άρθρα";
+                                }
+                                ?>
+                                <tr>
+                                    <td>{{$post->title}}</td>
+                                    <td>{{$post->category}}</td>
+                                    <td><a href="/posts/{{$post->id}}/edit" class="btn btn-default">Επεξεργασία</a></td>
+                                    <td>
+                                        {!! Form::open(['action' => ['PostsController@destroy', $post->id], 'method' => 'POST', 'class' => 'pull-right']) !!}
+                                            {{Form::hidden('_method', 'DELETE')}}
+                                            {{Form::submit('Διαγραφή', ['class' => 'btn btn-danger'])}}
+                                        {!!Form::close()!!}
+                                    </td>
+                                </tr>
                             @endforeach
                         </table>
                     @else

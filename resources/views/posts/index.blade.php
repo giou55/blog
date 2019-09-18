@@ -13,6 +13,9 @@ if(count($posts) > 0) {
         case "stories":
             $category = "Ιστορίες";
             break;
+        case "taste":
+            $category = "Γεύση";
+            break;
         default:
             $category = "Άρθρα";
     }
@@ -33,7 +36,7 @@ if(count($posts) > 0) {
                     </div>
                     <div class="col-md-8 col-sm-8">
                         <h3><a href="/posts/{{$post->id}}">{{$post->title}}</a></h3>
-                        <small>Written on {{$post->created_at}} by {{$post->user->name}}</small>
+                        <small>Δημοσιεύτηκε στις {{$post->created_at}} από {{$post->user->name}}</small>
                     </div>
                 </div>
             </div>
