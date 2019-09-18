@@ -20,11 +20,11 @@
 
             <ul class="nav navbar-nav">
                 <li><a href="/">ΑΡΧΙΚΗ</a></li>
-                <li><a href="/posts/persons">ΠΡΟΣΩΠΑ</a></li>
-                <li><a href="/posts/city">ΠΟΛΗ</a></li>
-                <li><a href="/posts">ΙΣΤΟΡΙΕΣ</a></li>
-                <li><a href="/posts">ΓΕΥΣΗ</a></li>
-                <li><a href="/posts">ΤΕΧΝΟΛΟΓΙΑ</a></li>
+                <li><a href="/category/persons">ΠΡΟΣΩΠΑ</a></li>
+                <li><a href="/category/city">ΠΟΛΗ</a></li>
+                <li><a href="/category/stories">ΙΣΤΟΡΙΕΣ</a></li>
+                <li><a href="/category/taste">ΓΕΥΣΗ</a></li>
+                <li><a href="/category/tech">ΤΕΧΝΟΛΟΓΙΑ</a></li>
                 <li><a href="/posts">ΝΕΑ</a></li>
                 <li><a href="/posts">ΤΕΧΝΕΣ</a></li>
                 <li><a href="/posts">LIFE</a></li>
@@ -44,7 +44,7 @@
                         </a>
 
                         <ul class="dropdown-menu">
-                            <li><a href="/dashboard">Dashboard</a></li>
+                            <li><a href="/dashboard">Πίνακας ελέγχου</a></li>
                             <li>
                                 <a href="{{ route('logout') }}"
                                     onclick="event.preventDefault();

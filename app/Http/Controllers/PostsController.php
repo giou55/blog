@@ -27,7 +27,11 @@ class PostsController extends Controller
     public function index()
     {
         $posts = Post::orderBy('created_at', 'desc')->paginate(3);
-        return view('posts.index')->with('posts', $posts);
+        $data = array(
+            'posts' => $posts,
+            'category' => 'Άρθρα'
+        );
+        return view('posts.index')->with($data);
     }
 
     /**
@@ -75,7 +79,7 @@ class PostsController extends Controller
         $post->cover_image = $fileNameToStore; 
         $post->save();
 
-        return redirect('/posts')->with('success', 'Post Created');
+        return redirect('/dashboard')->with('success', 'Το άρθρο αποθηκεύτηκε');
     }
 
     /**
@@ -88,21 +92,6 @@ class PostsController extends Controller
     {
         $post = Post::find($id);
         return view('posts.show')->with('post', $post);
-    }
-
-    public function showCat($category)
-    {
-        $posts = Post::where('category', $category)
-        ->orderBy('created_at', 'desc')->paginate(3);
-        return view('posts.index')->with('posts', $posts);
-    }
-
-    public function showCatId($category, $id)
-    {
-        $posts = Post::where('category', $category)
-        ->where('id', $id)
-        ->orderBy('created_at', 'desc')->paginate(3);
-        return view('posts.index')->with('posts', $posts);
     }
 
     /**
@@ -157,7 +146,7 @@ class PostsController extends Controller
         }
         $post->save();
 
-        return redirect('/posts')->with('success', 'Post Updated');
+        return redirect('/dashboard')->with('success', 'Το άρθρο ενημερώθηκε');
     }
 
     /**
@@ -181,6 +170,6 @@ class PostsController extends Controller
         }
 
         $post->delete();
-        return redirect('/posts')->with('success', 'Post Removed');
+        return redirect('/dashboard')->with('success', 'Το άρθρο διαγράφηκε');
     }
 }
