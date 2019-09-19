@@ -2,7 +2,7 @@
 
 @section('content')
     <a href="/category/{{$post->category}}" class="btn btn-default">Πίσω</a>
-    <h1>{{$post->title}}</h1>
+    <h2>{{$post->title}}</h2>
     <img style="width:50%" src="/storage/cover_images/{{$post->cover_image}}" alt="">
     <br><br>
     <div>
