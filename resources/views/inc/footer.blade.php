@@ -1,5 +1,5 @@
-<div style="background: #454140; color: #fff; text-align: center; padding: 20px;" class="container-fluid">
+<div style="background: #120; color: #fff; text-align: center; padding: 20px;" class="container-fluid">
     <div class="container">
-        <p>Rock and the City 2019</p>
+        <p>Wildlife - 2019</p>
     </div>
 </div>

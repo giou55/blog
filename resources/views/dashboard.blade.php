@@ -20,22 +20,34 @@
                             </tr>
                             @foreach($posts as $post)
                                 <?php
-                                switch ($post->category) {
-                                    case "persons":
-                                        $post->category = "Πρόσωπα";
-                                        break;
-                                    case "city":
-                                        $post->category = "Πόλη";
-                                        break;
-                                    case "stories":
-                                        $post->category = "Ιστορίες";
-                                        break;
-                                    case "taste":
-                                        $post->category = "Γεύση";
-                                        break;
-                                    default:
-                                        $post->category = "Άρθρα";
-                                }
+                                    switch ($post->category) {
+                                        case "topia":
+                                            $post->category = "Τοπία";
+                                            break;
+                                        case "diadromes":
+                                            $post->category = "Διαδρομές";
+                                            break;
+                                        case "drastiriotites":
+                                            $post->category = "Δραστηριότητες";
+                                            break;
+                                        case "geuseis":
+                                            $post->category = "Γεύσεις";
+                                            break;
+                                        case "eidhseis":
+                                            $post->category = "Ειδήσεις";
+                                            break;
+                                        case "exoplismos":
+                                            $post->category = "Εξοπλισμός";
+                                            break;
+                                        case "vouno":
+                                            $post->category = "Βουνό";
+                                            break;
+                                        case "thalassa":
+                                            $post->category = "Θάλασσα";
+                                            break;
+                                        default:
+                                            $post->category = "Άρθρα";
+                                    }
                                 ?>
                                 <tr>
                                     <td>{{$post->title}}</td>

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse" style="background: #454140; border:none; border-radius:0; border-bottom:6px solid #ce3f3f">
+<nav class="navbar navbar-inverse" style="background: #465022; border:none; border-radius:0; border-bottom:4px solid #6f8534">
     <div class="container">
         <div class="navbar-header">
 
@@ -20,15 +20,14 @@
 
             <ul class="nav navbar-nav">
                 <li><a href="/">ΑΡΧΙΚΗ</a></li>
-                <li><a href="/category/persons">ΠΡΟΣΩΠΑ</a></li>
-                <li><a href="/category/city">ΠΟΛΗ</a></li>
-                <li><a href="/category/stories">ΙΣΤΟΡΙΕΣ</a></li>
-                <li><a href="/category/taste">ΓΕΥΣΗ</a></li>
-                <li><a href="/category/tech">ΤΕΧΝΟΛΟΓΙΑ</a></li>
-                <li><a href="/posts">ΝΕΑ</a></li>
-                <li><a href="/posts">ΤΕΧΝΕΣ</a></li>
-                <li><a href="/posts">LIFE</a></li>
-                <li><a href="/posts">ΑΦΙΕΡΩΜΑΤΑ</a></li>
+                <li><a href="/category/topia">ΤΟΠΙΑ</a></li>
+                <li><a href="/category/diadromes">ΔΙΑΔΡΟΜΕΣ</a></li>
+                <li><a href="/category/drastiriotites">ΔΡΑΣΤΗΡΙΟΤΗΤΕΣ</a></li>
+                <li><a href="/category/geuseis">ΓΕΥΣΕΙΣ</a></li>
+                <li><a href="/category/eidhseis">ΕΙΔΗΣΕΙΣ</a></li>
+                <li><a href="/category/exoplismos">ΕΞΟΠΛΙΣΜΟΣ</a></li>
+                <li><a href="/category/vouno">ΒΟΥΝΟ</a></li>
+                <li><a href="/category/thalassa">ΘΑΛΑΣΣΑ</a></li>
             </ul>
 
             <!-- Right Side Of Navbar -->

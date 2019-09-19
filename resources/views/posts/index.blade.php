@@ -2,19 +2,30 @@
 
 <?php
 if(count($posts) > 0) {
-
     switch ($category) {
-        case "persons":
-            $category = "Πρόσωπα";
+        case "topia":
+            $category = "Τοπία";
             break;
-        case "city":
-            $category = "Πόλη";
+        case "diadromes":
+            $category = "Διαδρομές";
             break;
-        case "stories":
-            $category = "Ιστορίες";
+        case "drastiriotites":
+            $category = "Δραστηριότητες";
             break;
-        case "taste":
-            $category = "Γεύση";
+        case "geuseis":
+            $category = "Γεύσεις";
+            break;
+        case "eidhseis":
+            $category = "Ειδήσεις";
+            break;
+        case "exoplismos":
+            $category = "Εξοπλισμός";
+            break;
+        case "vouno":
+            $category = "Βουνό";
+            break;
+        case "thalassa":
+            $category = "Θάλασσα";
             break;
         default:
             $category = "Άρθρα";

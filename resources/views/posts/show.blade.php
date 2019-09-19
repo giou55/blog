@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <a href="/posts" class="btn btn-default">Πίσω</a>
+    <a href="/category/{{$post->category}}" class="btn btn-default">Πίσω</a>
     <h1>{{$post->title}}</h1>
     <img style="width:40%" src="/storage/cover_images/{{$post->cover_image}}" alt="">
     <br><br>
