@@ -21,11 +21,8 @@
                             @foreach($posts as $post)
                                 <?php
                                     switch ($post->category) {
-                                        case "topia":
-                                            $post->category = "Τοπία";
-                                            break;
-                                        case "diadromes":
-                                            $post->category = "Διαδρομές";
+                                        case "proorismoi":
+                                            $post->category = "Προορισμοί";
                                             break;
                                         case "drastiriotites":
                                             $post->category = "Δραστηριότητες";

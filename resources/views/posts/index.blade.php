@@ -3,11 +3,8 @@
 <?php
 if(count($posts) > 0) {
     switch ($category) {
-        case "topia":
-            $category = "Τοπία";
-            break;
-        case "diadromes":
-            $category = "Διαδρομές";
+        case "proorismoi":
+            $category = "Προορισμοί";
             break;
         case "drastiriotites":
             $category = "Δραστηριότητες";

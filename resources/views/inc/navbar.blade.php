@@ -19,15 +19,30 @@
             </ul>
 
             <ul class="nav navbar-nav">
-                <li><a href="/">ΑΡΧΙΚΗ</a></li>
-                <li><a href="/category/topia">ΤΟΠΙΑ</a></li>
-                <li><a href="/category/diadromes">ΔΙΑΔΡΟΜΕΣ</a></li>
-                <li><a href="/category/drastiriotites">ΔΡΑΣΤΗΡΙΟΤΗΤΕΣ</a></li>
-                <li><a href="/category/geuseis">ΓΕΥΣΕΙΣ</a></li>
-                <li><a href="/category/eidhseis">ΕΙΔΗΣΕΙΣ</a></li>
-                <li><a href="/category/exoplismos">ΕΞΟΠΛΙΣΜΟΣ</a></li>
-                <li><a href="/category/vouno">ΒΟΥΝΟ</a></li>
-                <li><a href="/category/thalassa">ΘΑΛΑΣΣΑ</a></li>
+                <li class="{{ (request()->is('/')) ? 'active' : '' }}">
+                    <a href="/">ΑΡΧΙΚΗ</a>
+                </li>
+                <li class="{{ (request()->is('category/proorismoi')) ? 'active' : '' }}">
+                    <a href="/category/proorismoi">ΠΡΟΟΡΙΣΜΟΙ</a>
+                </li>
+                <li class="{{ (request()->is('category/drastiriotites')) ? 'active' : '' }}">
+                    <a href="/category/drastiriotites">ΔΡΑΣΤΗΡΙΟΤΗΤΕΣ</a>
+                </li>
+                <li class="{{ (request()->is('category/geuseis')) ? 'active' : '' }}">
+                    <a href="/category/geuseis">ΓΕΥΣΕΙΣ</a>
+                </li>
+                <li class="{{ (request()->is('category/eidhseis')) ? 'active' : '' }}">
+                    <a href="/category/eidhseis">ΕΙΔΗΣΕΙΣ</a>
+                </li>
+                <li class="{{ (request()->is('category/exoplismos')) ? 'active' : '' }}">
+                    <a href="/category/exoplismos">ΕΞΟΠΛΙΣΜΟΣ</a>
+                </li>
+                <li class="{{ (request()->is('category/vouno')) ? 'active' : '' }}">
+                    <a href="/category/vouno">ΒΟΥΝΟ</a>
+                </li>
+                <li class="{{ (request()->is('category/thalassa')) ? 'active' : '' }}">
+                    <a href="/category/thalassa">ΘΑΛΑΣΣΑ</a>
+                </li>
             </ul>
 
             <!-- Right Side Of Navbar -->

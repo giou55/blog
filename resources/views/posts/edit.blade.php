@@ -9,7 +9,7 @@
         </div>
         <div class="form-group">
             {{Form::label('category', 'Κατηγορία')}}
-            {{Form::select('category', ['topia' => 'Τοπία', 'diadromes' => 'Διαδρομές', 'drastiriotites' => 'Δραστηριότητες', 'geuseis' => 'Γεύσεις', 'eidhseis' => 'Ειδήσεις', 'exoplismos' => 'Εξοπλισμός', 'vouno' => 'Βουνό', 'thalassa' => 'Θάλασσα'], 'topia', ['class' => 'form-control'])}}
+            {{Form::select('category', ['proorismoi' => 'Προορισμοί', 'drastiriotites' => 'Δραστηριότητες', 'geuseis' => 'Γεύσεις', 'eidhseis' => 'Ειδήσεις', 'exoplismos' => 'Εξοπλισμός', 'vouno' => 'Βουνό', 'thalassa' => 'Θάλασσα'], 'topia', ['class' => 'form-control'])}}
         </div>
         <div class="form-group">
             {{Form::label('body', 'Κείμενο')}}
