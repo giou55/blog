@@ -37,11 +37,11 @@ if(count($posts) > 0) {
     {{$posts->links()}}
 
     @if(count($posts) > 0)
-        <div class="container">
+        <div class="container jumbotron">
             <div>
-                <div class="row" style="height: 300px">
+                <div class="row" style="display: flex;flex-wrap: wrap;">
                 @foreach($posts as $post)
-                        <div class="col-md-6 col-xs-12" style="height: 300px">
+                        <div class="col-md-6 col-xs-12" style="margin:20px 0">
                             <img style="width:80%" src="/storage/cover_images/{{$post->cover_image}}" alt="">
                             <h3><a href="/posts/{{$post->id}}">{{$post->title}}</a></h3>
                             <small>Δημοσιεύτηκε στις {{$post->created_at}} από {{$post->user->name}}</small>

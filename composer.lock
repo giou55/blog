@@ -4,49 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b947403e7256d95abb9ef753b1cb2698",
+    "content-hash": "ab628c6fc09c6a614bad79bd27622559",
     "packages": [
-        {
-            "name": "ckeditor/ckeditor",
-            "version": "4.12.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ckeditor/ckeditor-releases.git",
-                "reference": "b1a25e93ae0b038f45dcba458f4c2c18bd7318e5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ckeditor/ckeditor-releases/zipball/b1a25e93ae0b038f45dcba458f4c2c18bd7318e5",
-                "reference": "b1a25e93ae0b038f45dcba458f4c2c18bd7318e5",
-                "shasum": ""
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+",
-                "LGPL-2.1+",
-                "MPL-1.1+"
-            ],
-            "authors": [
-                {
-                    "name": "CKSource",
-                    "homepage": "http://cksource.com"
-                }
-            ],
-            "description": "JavaScript WYSIWYG web text editor.",
-            "homepage": "http://ckeditor.com",
-            "keywords": [
-                "CKEditor",
-                "editor",
-                "fckeditor",
-                "html",
-                "javascript",
-                "richtext",
-                "text",
-                "wysiwyg"
-            ],
-            "time": "2019-06-28T10:41:23+00:00"
-        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
@@ -2591,6 +2550,57 @@
             "time": "2017-11-27T11:13:29+00:00"
         },
         {
+            "name": "twbs/bootstrap",
+            "version": "v4.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "9e4e94747bd698f4f61d48ed54c9c6d4d199bd32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/9e4e94747bd698f4f61d48ed54c9c6d4d199bd32",
+                "reference": "9e4e94747bd698f4f61d48ed54c9c6d4d199bd32",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                },
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com/",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "time": "2018-12-21T18:55:28+00:00"
+        },
+        {
             "name": "unisharp/laravel-ckeditor",
             "version": "4.7.2",
             "source": {
@@ -2697,6 +2707,47 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "ckeditor/ckeditor",
+            "version": "4.12.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ckeditor/ckeditor-releases.git",
+                "reference": "b1a25e93ae0b038f45dcba458f4c2c18bd7318e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ckeditor/ckeditor-releases/zipball/b1a25e93ae0b038f45dcba458f4c2c18bd7318e5",
+                "reference": "b1a25e93ae0b038f45dcba458f4c2c18bd7318e5",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+",
+                "LGPL-2.1+",
+                "MPL-1.1+"
+            ],
+            "authors": [
+                {
+                    "name": "CKSource",
+                    "homepage": "http://cksource.com"
+                }
+            ],
+            "description": "JavaScript WYSIWYG web text editor.",
+            "homepage": "http://ckeditor.com",
+            "keywords": [
+                "CKEditor",
+                "editor",
+                "fckeditor",
+                "html",
+                "javascript",
+                "richtext",
+                "text",
+                "wysiwyg"
+            ],
+            "time": "2019-06-28T10:41:23+00:00"
+        },
         {
             "name": "doctrine/instantiator",
             "version": "1.0.5",
