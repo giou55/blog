@@ -38,10 +38,10 @@ if(count($posts) > 0) {
 
     @if(count($posts) > 0)
         <div class="container">
-            <div class="well">
-                <div class="row">
+            <div>
+                <div class="row" style="height: 300px">
                 @foreach($posts as $post)
-                        <div class="col-md-6 col-xs-12">
+                        <div class="col-md-6 col-xs-12" style="height: 300px">
                             <img style="width:80%" src="/storage/cover_images/{{$post->cover_image}}" alt="">
                             <h3><a href="/posts/{{$post->id}}">{{$post->title}}</a></h3>
                             <small>Δημοσιεύτηκε στις {{$post->created_at}} από {{$post->user->name}}</small>
