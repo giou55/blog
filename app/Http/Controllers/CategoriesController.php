@@ -10,7 +10,7 @@ class CategoriesController extends Controller
     public function showCat($category)
     {
         $posts = Post::where('category', $category)
-        ->orderBy('created_at', 'desc')->paginate(10);
+        ->orderBy('created_at', 'desc')->paginate(4);
         $data = array(
             'posts' => $posts,
             'category' => $category
