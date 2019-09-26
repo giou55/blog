@@ -24,6 +24,6 @@
         {!!$post->body!!}
     </div>
     <hr>
-    <small>Δημοσιεύτηκε στις {{$post->created_at}} από {{$post->user->name}}</small>
+    <small>Δημοσιεύτηκε στις <b>{{ date('d-m-Y', strtotime($post->created_at)) }}</b> από <b>{{$post->user->name}}</b></small>
 </div>
 @endsection
