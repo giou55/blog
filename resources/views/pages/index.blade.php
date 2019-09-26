@@ -109,7 +109,7 @@
                             εξοπλισμό σας. Ξέρουμε τα προϊόντα που πουλάμε και την χρήση που προορίζονται γιατί είμαστε 
                             σαν και σας."
                         </p>
-                        <p style="font-size:1.3rem; color:black; text-align:left; padding-left:10px;">Αιγάλεω<br>Ιερά Οδός 263<br>Τηλ: 210 5987213<br>Mail: info@terramare.com.gr
+                        <p style="font-size:1.3rem; font-weight:normal; color:black; text-align:left; padding-left:10px;">Αιγάλεω<br>Ιερά Οδός 263<br>Τηλ: 210 5987213<br>Email: info@terramare.com.gr
                         </p>
                 </div>
 
