@@ -1,6 +1,13 @@
 <div style="background: #465022" class="container-fluid">
 <div class="container">
-    <img style="height:100px;margin:10px 0" src="/storage/logo.png" alt="logo">
-    <img style="height:40px;margin:30px 0" class="pull-right" src="/storage/icons.png" alt="icons">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-lg-3 text-center">
+            <img id="logo" src="/storage/logo.png" alt="logo">
+        </div>
+        <div class="col-xs-0 col-sm-6 col-lg-7"></div>
+        <div class="col-xs-12 col-sm-6 col-lg-2 text-center">
+            <img id="socials-icons" src="/storage/icons.png" alt="icons">
+        </div>
+    </div>
 </div>
 </div>
