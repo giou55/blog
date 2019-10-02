@@ -91,7 +91,7 @@
                     <br><br>
 
                     <p style="text-align:left;">
-                        <a href="#"><img src="/storage/facebook-likes.jpg" alt="Terra Mare" style="width:60%;"></a>
+                        <a href="#"><img id= fb-like src="/storage/facebook-likes.jpg" alt="facebook likes"></a>
                     </p>
 
                 </div>

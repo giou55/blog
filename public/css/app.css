@@ -15,13 +15,16 @@
 #socials-icons {
     width:30%; margin:10px auto;
 }
+#fb-like {
+    width:90%;
+}
 
 @media screen and (min-width: 768px) {
     #logo {
         width:80%; margin:10px auto;
     }
     #socials-icons {
-        width:40%; margin-top:60px;
+        width:80%; margin-top:60px;
     }
 }
 
@@ -30,7 +33,7 @@
         width:80%; margin:10px auto;
     }
     #socials-icons {
-        width:35%; margin-top:70px;
+        width:80%; margin-top:30px;
     }
 }
 
@@ -40,5 +43,8 @@
     }
     #socials-icons {
         width:80%; margin:20px auto;
+    }
+    #fb-like {
+        width:60%;
     }
 }
