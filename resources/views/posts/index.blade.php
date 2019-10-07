@@ -37,9 +37,9 @@ if(count($posts) > 0) {
     {{$posts->links()}}
 
     @if(count($posts) > 0)
-        <div class="container jumbotron">
+        <div class="container">
             <div>
-                <div class="row" style="display: flex;flex-wrap: wrap;">
+                <div class="row" style="display:flex; flex-wrap:wrap;">
                 @foreach($posts as $post)
                         <div class="col-md-6 col-xs-12" style="margin:20px 0">
                             <img style="width:80%" src="/storage/cover_images/{{$post->cover_image}}" alt="">

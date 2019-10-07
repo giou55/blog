@@ -1,8 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="jumbotron">
-
+<div style="padding-top: 10px">
     <a href="/category/{{$post->category}}" class="btn btn-default">Πίσω</a>
 
     @if(!Auth::guest())

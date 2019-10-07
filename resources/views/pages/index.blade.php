@@ -1,9 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="jumbotron text-center">
         
-        <div class="container">
+        <div class="container" style="padding-top:30px;">
 
             <div class="row">
 
@@ -80,28 +79,30 @@
         
                     <br><br>
 
-                    <h3>ΤΑΞΙΔΕΨΕ | ΑΝΑΚΑΛΥΨΕ | ΖΗΣΕ</h3>
-                    <p style="font-size:1.8rem; text-align:left;">Η φύση μάς καλεί να την ανακαλύψουμε όλες τις εποχές του χρόνου. Ένα μωσαϊκό τοπίων 
-                    με μοναδική βιοποικιλότητα και οικολογική αξία ξεδιπλώνεται μπροστά μας: σε εθνικά πάρκα, 
-                    ποτάμια, καταρράκτες, λίμνες, υδροβιότοπους, οροσειρές και ηφαίστεια. Θα ανακαλύψετε πόσα πολλά 
-                    μπορεί να κρύβονται στον μικρό πλανήτη μας.<br>Παράλληλα στο ανέγγιχτο από τον άνθρωπο φυσικό 
-                    περιβάλλον προσφέρονται δραστηριότητες, όπως περπάτημα, ιππασία, οδήγηση off road, ράφτινγκ, 
-                    καγιάκ, αναρρίχηση, ορειβασία ή canyoning.</p>
+                    <div style="padding:0 20px;">
+                        <h3>ΤΑΞΙΔΕΨΕ | ΑΝΑΚΑΛΥΨΕ | ΖΗΣΕ</h3>
+                        <p style="font-size:1.8rem; text-align:left;">Η φύση μάς καλεί να την ανακαλύψουμε όλες τις εποχές του χρόνου. Ένα μωσαϊκό τοπίων 
+                        με μοναδική βιοποικιλότητα και οικολογική αξία ξεδιπλώνεται μπροστά μας: σε εθνικά πάρκα, 
+                        ποτάμια, καταρράκτες, λίμνες, υδροβιότοπους, οροσειρές και ηφαίστεια. Θα ανακαλύψετε πόσα πολλά 
+                        μπορεί να κρύβονται στον μικρό πλανήτη μας.<br>Παράλληλα στο ανέγγιχτο από τον άνθρωπο φυσικό 
+                        περιβάλλον προσφέρονται δραστηριότητες, όπως περπάτημα, ιππασία, οδήγηση off road, ράφτινγκ, 
+                        καγιάκ, αναρρίχηση, ορειβασία ή canyoning.</p>
+                    </div>
 
                     <br><br>
 
                     <p style="text-align:left;">
-                        <a href="#"><img id= fb-like src="/storage/facebook-likes.jpg" alt="facebook likes"></a>
+                        <a href="#"><img id="fb-like" src="/storage/facebook-likes.jpg" alt="facebook likes"></a>
                     </p>
 
                 </div>
 
-                <div class="col-sm-3">
+                <div class="col-sm-3" style="padding: 20px 40px;">
                         <a href="https://terramare.com.gr/" target="_blank">
-                            <img src="/storage/TerraMare.png" alt="Terra Mare" style="width:70%;">
+                            <img src="/storage/TerraMare.png" alt="Terra Mare" style="width:60%;">
                         </a>
                         <p style="font-size:1.4rem; font-weight: bold;">Είδη camping, είδη ορειβασίας, σκηνές, outdoor.</p>
-                        <p style="font-size:1.5rem; text-align:left; padding:10px;">"Το TERRAMARE είναι εδώ για σας. Σε μας θα βρείτε μια καλά ενημερωμένη ποικιλία 
+                        <p style="font-size:1.5rem; text-align:left;">"Το TERRAMARE είναι εδώ για σας. Σε μας θα βρείτε μια καλά ενημερωμένη ποικιλία 
                             προϊόντων της αγαπημένης σας δραστηριότητας, για να απολαύσετε τις εξορμήσεις σας. 
                             Χτενίζουμε εξαντλητικά την παγκόσμια αγορά και επιλέγουμε για σας τα καλύτερα 
                             προϊόντα,που ταιριάζουν στα Ελληνικά μικρο-κλίματα και στις δικές σας ανάγκες. 
@@ -117,5 +118,4 @@
 
         </div><!-- end of container -->
 
-    </div>
 @endsection
