@@ -13,12 +13,12 @@
 </div> --}}
 
 <div style="background: #465022; padding:8px" class="container-fluid">
-    <div class="container" style="display:flex; flex-flow: row wrap; justify-content:space-between; align-items:center">
-        <div style="flex:0 1 250px;">
-            <img id="logo" src="/storage/logo.png" alt="logo">
+    <div class="container" id="logobar">
+        <div id="logo-icon">
+            <img src="/storage/logo.png" alt="logo">
         </div>
-        <div style="flex:0 1 120px;">
-            <img id="socials-icons" src="/storage/icons.png" alt="icons">
+        <div id="social-icons">
+            <img src="/storage/icons.png" alt="icons">
         </div>
     </div>
 </div>

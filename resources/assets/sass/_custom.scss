@@ -2,7 +2,7 @@ html,body {
     font-family: Arial, Helvetica, sans-serif;
 }
 img {
-    max-width:100%;
+    width:100%;
     height:auto;
 }
 a:link, a:visited {
@@ -46,12 +46,73 @@ a:hover {
 }
 
 @media only screen and (max-width: 570px) {
+    #logobar{
+        display:flex; 
+        flex-flow: column wrap; 
+        justify-content:center; 
+        align-items:center;
+    }
+    #logo-icon{
+        width: 60%;
+    }
+    #social-icons{
+        width: 30%;
+        margin-top: 20px;
+    }
 }
 @media only screen and (min-width: 570px) {
+    #logobar{
+        display:flex; 
+        flex-flow: row wrap; 
+        justify-content:space-between; 
+        align-items:center;
+    }
+    #logo-icon{
+        flex:0 1 50%; align-self:center;
+    }
+    #social-icons{
+        flex:0 1 25%; align-self:center;
+    }
 }
 @media only screen and (min-width: 768px) {
+    #logobar{
+        display:flex; 
+        flex-flow: row wrap; 
+        justify-content:space-between; 
+        align-items:center;
+    }
+    #logo-icon{
+        flex:0 1 40%; align-self:center;
+    }
+    #social-icons{
+        flex:0 1 20%; align-self:center;
+    }
 }
 @media only screen and (min-width: 992px) {
+    #logobar{
+        display:flex; 
+        flex-flow: row wrap; 
+        justify-content:space-between; 
+        align-items:center;
+    }
+    #logo-icon{
+        flex:0 1 30%; align-self:center;
+    }
+    #social-icons{
+        flex:0 1 15%; align-self:center;
+    }
 }
 @media only screen and (min-width: 1200px) {
+    #logobar{
+        display:flex; 
+        flex-flow: row wrap; 
+        justify-content:space-between; 
+        align-items:center;
+    }
+    #logo-icon{
+        flex:0 1 20%; align-self:center;
+    }
+    #social-icons{
+        flex:0 1 10%; align-self:center;
+    }
 }
