@@ -8391,6 +8391,11 @@ a:hover {
   border-color: #6f8534;
 }
 
+.container:before,
+.container:after {
+  display: none;
+}
+
 #fb-like {
   width: 50%;
 }

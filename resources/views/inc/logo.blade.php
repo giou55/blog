@@ -14,7 +14,7 @@
 
 <div style="background: #465022; padding:8px" class="container-fluid">
     <div class="container" style="display:flex; flex-flow: row wrap; justify-content:space-between; align-items:center">
-        <div style="width:250px; flex:auto;">
+        <div style="flex:0 1 250px;">
             <img id="logo" src="/storage/logo.png" alt="logo">
         </div>
         <div style="flex:0 1 120px;">
