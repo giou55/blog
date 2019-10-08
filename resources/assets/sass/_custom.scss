@@ -41,9 +41,6 @@ a:hover {
 .container:before, .container:after {
     display: none;
 }
-#fb-like {
-    width:50%;
-}
 
 @media only screen and (max-width: 570px) {
     #logobar{
@@ -59,6 +56,9 @@ a:hover {
         width: 30%;
         margin-top: 20px;
     }
+    #fb-like {
+        width:80%;
+    }
 }
 @media only screen and (min-width: 570px) {
     #logobar{
@@ -72,6 +72,9 @@ a:hover {
     }
     #social-icons{
         flex:0 1 25%; align-self:center;
+    }
+    #fb-like {
+        width:80%;
     }
 }
 @media only screen and (min-width: 768px) {
@@ -87,6 +90,9 @@ a:hover {
     #social-icons{
         flex:0 1 20%; align-self:center;
     }
+    #fb-like {
+        width:70%;
+    }
 }
 @media only screen and (min-width: 992px) {
     #logobar{
@@ -101,6 +107,9 @@ a:hover {
     #social-icons{
         flex:0 1 15%; align-self:center;
     }
+    #fb-like {
+        width:60%;
+    }
 }
 @media only screen and (min-width: 1200px) {
     #logobar{
@@ -114,5 +123,8 @@ a:hover {
     }
     #social-icons{
         flex:0 1 10%; align-self:center;
+    }
+    #fb-like {
+        width:50%;
     }
 }

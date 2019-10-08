@@ -8396,10 +8396,6 @@ a:hover {
   display: none;
 }
 
-#fb-like {
-  width: 50%;
-}
-
 @media only screen and (max-width: 570px) {
   #logobar {
     display: -webkit-box;
@@ -8424,6 +8420,10 @@ a:hover {
   #social-icons {
     width: 30%;
     margin-top: 20px;
+  }
+
+  #fb-like {
+    width: 80%;
   }
 }
 
@@ -8459,6 +8459,10 @@ a:hover {
     -ms-flex-item-align: center;
         align-self: center;
   }
+
+  #fb-like {
+    width: 80%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -8492,6 +8496,10 @@ a:hover {
             flex: 0 1 20%;
     -ms-flex-item-align: center;
         align-self: center;
+  }
+
+  #fb-like {
+    width: 70%;
   }
 }
 
@@ -8527,6 +8535,10 @@ a:hover {
     -ms-flex-item-align: center;
         align-self: center;
   }
+
+  #fb-like {
+    width: 60%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -8560,6 +8572,10 @@ a:hover {
             flex: 0 1 10%;
     -ms-flex-item-align: center;
         align-self: center;
+  }
+
+  #fb-like {
+    width: 50%;
   }
 }
 
