@@ -1,13 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-        
         <div class="container" style="padding-top:30px;">
-
             <div class="row">
-
-                <div class="col-sm-9">
-
+                <div class="col-md-9">
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
@@ -81,7 +77,7 @@
 
                     <div style="padding:0 20px;">
                         <h3>ΤΑΞΙΔΕΨΕ | ΑΝΑΚΑΛΥΨΕ | ΖΗΣΕ</h3>
-                        <p style="font-size:1.8rem; text-align:left;">Η φύση μάς καλεί να την ανακαλύψουμε όλες τις εποχές του χρόνου. Ένα μωσαϊκό τοπίων 
+                        <p style="font-size:1.7rem; text-align:left;">Η φύση μάς καλεί να την ανακαλύψουμε όλες τις εποχές του χρόνου. Ένα μωσαϊκό τοπίων 
                         με μοναδική βιοποικιλότητα και οικολογική αξία ξεδιπλώνεται μπροστά μας: σε εθνικά πάρκα, 
                         ποτάμια, καταρράκτες, λίμνες, υδροβιότοπους, οροσειρές και ηφαίστεια. Θα ανακαλύψετε πόσα πολλά 
                         μπορεί να κρύβονται στον μικρό πλανήτη μας.<br>Παράλληλα στο ανέγγιχτο από τον άνθρωπο φυσικό 
@@ -91,17 +87,19 @@
 
                     <br><br>
 
-                    <p style="text-align:left;">
-                        <a href="#"><img id="fb-like" src="/storage/facebook-likes.jpg" alt="facebook likes"></a>
+                    <p id="fb-like">
+                        <a href="#"><img id="fb-like-img" src="/storage/facebook-likes.jpg" alt="facebook likes"></a>
                     </p>
 
                 </div>
 
-                <div class="col-sm-3" style="padding: 20px 40px;">
-                        <a href="https://terramare.com.gr/" target="_blank">
-                            <img src="/storage/TerraMare.png" alt="Terra Mare" style="width:60%;">
-                        </a>
-                        <p style="font-size:1.4rem; font-weight: bold;">Είδη camping, είδη ορειβασίας, σκηνές, outdoor.</p>
+                <div class="col-md-3" style="padding: 20px 40px;">
+                        <p style="text-align:center;">
+                            <a href="https://terramare.com.gr/" target="_blank">
+                                <img id="terramare-logo" src="/storage/TerraMare.png" alt="Terra Mare">
+                            </a>
+                        </p>
+                        <p style="text-align:center; font-size:1.4rem; font-weight: bold;">Είδη camping, είδη ορειβασίας, σκηνές, outdoor.</p>
                         <p style="font-size:1.5rem; text-align:left;">"Το TERRAMARE είναι εδώ για σας. Σε μας θα βρείτε μια καλά ενημερωμένη ποικιλία 
                             προϊόντων της αγαπημένης σας δραστηριότητας, για να απολαύσετε τις εξορμήσεις σας. 
                             Χτενίζουμε εξαντλητικά την παγκόσμια αγορά και επιλέγουμε για σας τα καλύτερα 
@@ -113,9 +111,6 @@
                         <p style="font-size:1.3rem; font-weight:normal; color:black; text-align:left; padding-left:10px;">Αιγάλεω<br>Ιερά Οδός 263<br>Τηλ: 210 5987213<br>Email: info@terramare.com.gr
                         </p>
                 </div>
-
             </div><!-- end of row -->
-
         </div><!-- end of container -->
-
 @endsection

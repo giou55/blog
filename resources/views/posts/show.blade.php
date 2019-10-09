@@ -16,9 +16,11 @@
         @endif
     @endif
 
-    <h2>{{$post->title}}</h2>
-    <img style="width:70%" src="/storage/cover_images/{{$post->cover_image}}" alt="">
+        <h2>{{$post->title}}</h2>
+        <img class="cover-img" src="/storage/cover_images/{{$post->cover_image}}" alt="">
+
     <br><br>
+    
     <div>
         {!!$post->body!!}
     </div>

@@ -38,17 +38,15 @@ if(count($posts) > 0) {
 
     @if(count($posts) > 0)
         <div class="container">
-            <div>
                 <div class="row" style="display:flex; flex-wrap:wrap;">
                 @foreach($posts as $post)
                         <div class="col-md-6 col-xs-12" style="margin:20px 0">
-                            <img style="width:80%" src="/storage/cover_images/{{$post->cover_image}}" alt="">
+                            <img style="width:90%" src="/storage/cover_images/{{$post->cover_image}}" alt="">
                             <h3><a href="/posts/{{$post->id}}">{{$post->title}}</a></h3>
                             <small>Δημοσιεύτηκε στις <b>{{ date('d-m-Y', strtotime($post->created_at)) }}</b> από <b>{{$post->user->name}}</b></small>
                         </div>
                 @endforeach
                 </div>
-            </div>
         </div>
     @else
         <p>Δεν βρέθηκαν άρθρα</p>
